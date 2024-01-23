@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character set and viewport for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the document -->
+    <title>Text Shadow Effects</title>
+</head>
+<style>
+    /* Text shadow effect with a default shadow color */
+    .first {
+        text-shadow: 2px 2px; /* Offset the shadow by 2px horizontally and 2px vertically */
+    }
+
+    /* Text shadow effect with a red shadow color */
+    .second {
+        text-shadow: 2px 2px red; /* Offset the shadow by 2px horizontally and 2px vertically with a red color */
+    }
+
+    /* Text shadow effect with a red shadow color and increased blur */
+    .third {
+        text-shadow: 2px 2px 5px red; /* Offset the shadow by 2px horizontally and 2px vertically with a red color and 5px blur */
+    }
+
+    /* Text shadow effect with multiple shadows for a 3D-like effect */
+    .fourth {
+        text-shadow: 0 0 2px #ff0000, 0 0 5px #0000ff; /* Two shadows: red with 2px blur and blue with 5px blur */
+    }
+</style>
+<body>
+    <!-- Heading with different text shadow effects -->
+    <h1 class="first">Text Shadow Effect!</h1>
+    <h1 class="second">Text Shadow Effect!</h1>
+    <h1 class="third">Text Shadow Effect!</h1>
+    <h1 class="fourth">Text Shadow Effect!</h1>
+</body>
+</html>
